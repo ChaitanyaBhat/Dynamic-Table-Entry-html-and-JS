@@ -59,16 +59,13 @@
     <script>
         (function($){
         let firstTd = $(".row1 td:first");
-        //console.log(firstTd);
         firstTd.focus();
         document.onkeydown = checkKey;
 
         let i = 1;
         function checkKey(e){
             if(e.keyCode == 9){  
-                //console.log('target',e.target);              
                 let lastCell = $(`.row${i} td:last-child`)[0];
-                //console.log('lastCell',lastCell);
                 if(e.target == lastCell){
                     makeRow();
                 }
