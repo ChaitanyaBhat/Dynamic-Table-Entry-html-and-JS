@@ -1,4 +1,4 @@
-# Dynamic-Table Entry
+# Dynamic-Table Entry:
 
 It is a demonstration of a table which grows as you enter the data. It is developed using HTML and JavaScript.
 
